@@ -6,6 +6,25 @@ namespace Program
 {
 	/// <summary>
 	/// Simple Logger class
+	///  Usage:
+	///
+	///			Logger logger = new Logger();
+	///		
+	///			logger.LogName = "name_of_log";
+	///			logger.WriteToConsole = true;
+	///			logger.NotificationList = "somone@someplace.com";
+	///			logger.LogFile = "path to file"; 
+	///			logger.SmtpServer = "smtp server";				
+	///			logger.FromEmail = "noreply@somwhere.com";
+	///			
+	///			logger.StartLog();
+	///			
+	///			logger.LogEntry("somethign happened");
+	///			
+	///			logger.EmailLog();
+	///
+	///			logger.EndLog();
+	///
 	/// </summary>
 	public class Logger : IDisposable
 	{
