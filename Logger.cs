@@ -132,6 +132,7 @@ namespace Program
 			if(_tw != null) 
 			{
 				_tw.WriteLine(DateTime.Now + " " + message);
+				_tw.Flush();
 			}
 			if(WriteToConsole) 
 			{
