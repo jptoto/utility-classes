@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*          Usage:
+ *          ConsoleProgress.RenderConsoleProgress(25, '\u2591', ConsoleColor.Green, "25%");
+            Thread.Sleep(2000);
+            ConsoleProgress.RenderConsoleProgress(50, '\u2591', ConsoleColor.Green, "50%");
+ */
+
+using System;
 
 namespace QueueClearer
 {
