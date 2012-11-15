@@ -16,6 +16,10 @@
 *			        // Look for specific arguments values and display 
 *			        // them if they exist (return null if they don't)
 *			        if(CommandLine["param1"] != null)
+*			        
+*                   
+*                  Can use these formats
+*                  -size=100 /height:'400' -param1 "Nice stuff !" --debug
 */
 
 using System;
